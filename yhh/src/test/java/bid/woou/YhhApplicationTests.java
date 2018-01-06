@@ -1,7 +1,7 @@
 package bid.woou;
 
-import bid.woou.support.dao.UserMapper;
-import bid.woou.support.model.User;
+import bid.woou.common.singleTable.mapper.UserMapper;
+import bid.woou.common.singleTable.model.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

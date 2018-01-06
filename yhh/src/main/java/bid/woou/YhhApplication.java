@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("bid.woou.*.dao")
+@MapperScan("bid.woou.*.dao,bid.woou.common.singleTable.*.mapper")
 public class YhhApplication {
 
 	public static void main(String[] args) {

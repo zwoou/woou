@@ -1,4 +1,4 @@
-package bid.woou.support.model;
+package bid.woou.common.singleTable.model;
 
 import java.util.ArrayList;
 import java.util.List;
