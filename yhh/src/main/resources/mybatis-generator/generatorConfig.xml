@@ -33,7 +33,7 @@
         </javaTypeResolver>
 
         <!-- 生成实体类地址 -->
-        <javaModelGenerator targetPackage="bid.woou.common.model"
+        <javaModelGenerator targetPackage="bid.woou.common.singleTable.model"
                             targetProject="${project}" >
             <property name="enableSubPackages" value="false"/>
             <property name="trimStrings" value="true"/>
@@ -44,7 +44,7 @@
             <property name="enableSubPackages" value="false" />
         </sqlMapGenerator>
         <!-- 生成mapxml对应client，也就是接口dao -->
-        <javaClientGenerator targetPackage="bid.woou.common.mapper"
+        <javaClientGenerator targetPackage="bid.woou.common.singleTable.mapper"
                              targetProject="${project}"
                              type="XMLMAPPER" >
             <property name="enableSubPackages" value="false" />
